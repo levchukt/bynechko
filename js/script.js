@@ -69,7 +69,7 @@ async function getProducts() {
 function getCardHTML(product) {
     // Створюємо JSON-строку з даними про товар і зберігаємо її в data-атрибуті
     let productData = JSON.stringify(product)
-
+    
     return `
         <div class="my-card" style="">
             <img src="img/${product.image}">
@@ -94,8 +94,18 @@ getProducts().then(function (products) {
     if (productsList) {
         products.forEach(function (product) {
             productsList.innerHTML += getCardHTML(product)
+            
         })
+       
     }
+    products.forEach(function (product) {
+        let tag = document.querySelector('.my-card')
+        tag.addEventListener('hover', function(){
+            tag.querySelector('img').src = `img/${product.img2}`
+        })
+    })
+    
+
 
     // Отримуємо всі кнопки "Купити" на сторінці
     let buyButtons = document.querySelectorAll('.products-list .cart-btn');

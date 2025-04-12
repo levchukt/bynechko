@@ -1,23 +1,115 @@
 [
     {
-        "title": "HUMVEE® M1167 – Expanded Capacity TOW Carrier",
-        "price": 165,
+        "title": "HUMVEE M1167 – Expanded Capacity TOW Carrier",
+        "price": 6418,
         "image": "image 1.png",
-        "description": "."
+        "description": "",
+        "img2": "BKM8155_Web_Asset_02__30517.jpg"
     },
     {
         "title": "ПT-64BV – Ukrainian Main Battle Tank",
-        "price": 300,
+        "price": 16356,
         "image": "image 2.png",
-        "description": "."
+        "description": ""
     },
     {
         "title": "Ukrainian 2S7 Pion – 203mm Self-Propelled Gun",
-        "price": 500,
+        "price": 22567,
         "image": "BKM8102_Cover_Webcard__00941 1 (3).png",
-        "description": "."
-    }
+        "description": ""
+    },
     
+    {
+        "title": "M142 HIMARS® – High Mobility Artillery Rocket System® - Brickmania Classic Series",
+        "price": 8074,
+        "image": "BKM8180_Web_Asset_01__42734.jpg",
+        "description": ""
+    },
+    {
+        "title": "Ukrainian Rifleman with Perfect Caliber™ BrickArms® AK-GL",
+        "price": 2070,
+        "image": "0003__24913.webp",
+        "description": ""
+    },
+    {
+        "title": "NAFO Fellas",
+        "price": 1656,
+        "image": "0003_3__94956.webp",
+        "description": ""
+    },
+    {
+        "title": "Ukrainian Su-25 Frogfoot – Ground Attack Aircraft",
+        "price": 29192,
+        "image": "BKM8166_Web_Asset_01__04188.jpg",
+        "description": ""
+    },
+    {
+        "title": "Ukrainian Su-27 Flanker – Multi-Role Fighter Jet",
+        "price": 44099,
+        "image": "BKM8173_Web_Asset_01__40894.jpg",
+        "description": ""
+    },
+    {
+        "title": "An-225 Mriya - Strategic Airlift Cargo Aircraft",
+        "price": 52795,
+        "image": "795_Cover_Webcard_1__46981.jpg",
+        "description": ""
+    },
+    {
+        "title": "T-80BU Oplot– Captured Russian MBT",
+        "price": 21946,
+        "image": "BKM8082_Cover_Webcard1__78646.jpg",
+        "description": ""
+    },
+    {
+        "title": "M113AS4 – Australian Armored Personnel Carrier",
+        "price": 14492,
+        "image": "BKM8144_Web_Asset_01__85406.jpg",
+        "description": ""
+    },
+    {
+        "title": "Juice Ukrainian Fighter Pilot",
+        "price": 2070,
+        "image": "0003__30881.webp",
+        "description": ""
+    },
+    {
+        "title": "Mi-17V-5 Hip – Ukrainian Multi-Mission Helicopter",
+        "price": 31056,
+        "image": "BKM8089_Cover_Webcard_1__34639.jpg",
+        "description": "."
+    },
+    {
+        "title": "'Ghost of Kyiv' MiG-29 MU1 V.3 – Ukrainian Twin-Engine Jet Fighter",
+        "price": 26915,
+        "image": "BKM8100_Cover_Webcard1__02451.jpg",
+        "description": ""
+    },
+    {
+        "title": "BTR-4 – Armoured Personnel Carrier",
+        "price": 12215,
+        "image": "8073_Cover_Webcard1__16746.jpg",
+        "description": ""
+    },
+    {
+        "title": "Ukrainian M777 155mm Howitzer – Long Range Field Artillery",
+        "price": 4969,
+        "image": "BKM8087_Cover_Webcard_1__22152.jpg",
+        "description": ""
+    },
+    {
+        "title": "Ukrainian BMP-2 - Infantry Fighting Vehicle",
+        "price": 13457,
+        "image": "BKM8078_Cover_Webcard_1__01757.jpg",
+        "description": ""
+    },
+    {
+        "title": "Leopard 2A6 – Main Battle Tank in Ukrainian Service",
+        "price": 20497,
+        "image": "BKM8101B_Cover_Webcard__02188.jpg",
+        "description": ""
+    }
+        
         
 ]
   
