@@ -78,13 +78,114 @@
     <section class="container about py-5" id="about">
       <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
         <div class="col">
-          <h3 class="my-3">Sigmaboy це універсальний сайт для покупки лего моделей ми спецеалізуємся на виготовлені кастомних моделей військовой українськой техніки і солдатів кожна річ тут це унікальність які роблять на замовленя наші ціни такі великі томущо ми закуповуємо оригінальні деталі лего які потім використвуємо в створені кастоиних моделей
+          <h3 class="my-3">Sigmaboy це універсальний сайт для покупки лего моделей ми спецеалізуємся на виготовлені кастомних моделей військовой українськой техніки і солдатів кожна річ тут це унікальність які роблять на замовленя наші ціни такі великі томущо ми закуповуємо оригінальні деталі лего які потім використвуємо в створені кастомних моделей
         </div>
         <div class="col">
           <img src="img/фото 1.png" class="img-fluid">
         </div>
 
       </div>
+    </section>
+    <section class="reviews">
+      <html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Відгуки</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #reviews {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid rgb(83, 83, 83);
+      border-radius: 10px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .review {
+      border: 1px solid rgb(83, 83, 83);
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid rgb(83, 83, 83);
+    }
+
+    .review .name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background: #423420;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #423420;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="reviews">
+    <h2>Відгуки клієнтів</h2>
+    
+    <div id="review-list">
+ 
+    </div>
+
+    <form id="review-form">
+      <input type="text" id="name" placeholder="Ваше ім’я" required>
+      <textarea id="message" placeholder="Ваш відгук" rows="4" required></textarea>
+      <button type="submit">Надіслати відгук</button>
+    </form>
+  </section>
+
+  <script>
+    document.getElementById('review-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (name && message) {
+        const reviewList = document.getElementById('review-list');
+        const review = document.createElement('div');
+        review.className = 'review';
+
+        review.innerHTML = `<p class="name">${name}</p><p class="text">${message}</p>`;
+        reviewList.prepend(review); 
+        document.getElementById('review-form').reset();
+      }
+    });
+  </script>
+
+</body>
+</html>
+
     </section>
   </main>
   <footer>
